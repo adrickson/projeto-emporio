@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1200px) { /* TABLET */
+    header > h1 {
+        font-size: 6em;
+    }
+}
+
+@media screen and (min-width: 1200px) { /* DESKTOP / TELAS GRANDES */
+    header {
+        background: url('../imagens/back-header-2-g.jpg');
+        background-position:  center center;
+    }
+
+    header > h1 {
+        font-size: 6em;
+    }
+
+}

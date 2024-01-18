@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #F2C12E;
+    --cor2: #F2A81D;
+    --cor3: #F27830;
+    --cor4: #D92B2B;
+    --cor5: #F2F2F2;
+
+    --font-titulos: 'Poppins', sans-serif;
+    --font-sub-tit: 'Roboto Slab', serif;
+    --font-conteudo:'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: var(--cor5);
+}
+
+header {
+    background: var(--cor3) url('../imagens/back-header-2-p.jpg') no-repeat;
+    background-position: top center;
+    background-size: cover; 
+    box-shadow: inset 0px 0px 20px black;
+    
+    height: 280px;
+}
+
+header > h1 {
+    font-family: var(--font-titulos);
+    font-weight: 700;
+    font-size: 4.5em;
+    font-variant: small-caps;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.473);
+    color: var(--cor5);
+    background-color: rgba(0, 0, 0, 0.308);
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    display: flex;
+}
