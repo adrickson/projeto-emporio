@@ -16,6 +16,7 @@
     --cor3: #F27830;
     --cor4: #D92B2B;
     --cor5: #F2F2F2;
+    --cor6: #005978;
 
     --font-titulos: 'Poppins', sans-serif;
     --font-sub-tit: 'Roboto Slab', serif;
@@ -98,7 +99,8 @@ section.apresentacao {
     display: flex;
 }
 
-#img_fred img {display: block;}
+img#img_fred {display: block;}
+img#img_fred2 {display: none;}
 
 div.conteudo_p {
     
@@ -119,5 +121,94 @@ div.conteudo_p p {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.295);
 
     padding: 10px;
+}
+
+section.conteudo_sistema {
+    background-color: var(--cor3);
+
+    padding: 10px;
+    margin-top: 20px;
+}
+
+fieldset.mercadoria {
+
+    background-color: var(--cor1);
+    border: 2px solid var(--cor2);
+    border-radius: 20px;
+
+    padding: 10px;
+    width: 65%;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+legend.legenda {
+    font-family: var(--font-titulos);
+    color: white;
+    background-color: var(--cor3);
+    border-radius: 10px;
+    border-top: 2px solid var(--cor1);
+    border-left: 2px solid var(--cor1);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.137);
+
+
+    padding: 3px;
+}
+
+div.cont_lab_inp {
+    background-color: var(--cor3);
+    border-radius: 10px;
+    color: white;
+    font-family: var(--font-sub-tit);
+    font-weight: 500;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.356);
+
+    margin-top: 8px;
+    padding: 7px;
+}
+
+div.cont_lab_inp label {
+    font-size: 1.3em;
+}
+
+div.cont_lab_inp input {
+
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.589);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1em;
+
+    width: calc(100% - 200px);
+    padding: 3px;
+    transform: translateY(-2px);
+}
+
+div.botao {
+    text-align: center;
+
+    margin-top: 15px;
+}
+
+div.botao input {
+
+    font-family: var(--font-sub-tit);
+    font-weight: bolder;
+    font-size: 1.1em;
+    background-color: var(--cor1);
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: 0.5s;
+
+    padding: 5px;
+    width: 100px;
+}
+
+div.botao input:hover {
+    background-color: var(--cor2);
+    transform: translateY(-1px);
 }
 

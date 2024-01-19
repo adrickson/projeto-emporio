@@ -8,9 +8,60 @@
     nav.navegacao a {
         font-size: 1.6em;
     }
+
+    section.apresentacao {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.conteudo_p {
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    fieldset.mercadoria {
+        width: 44%;
+    }
+
+    legend.legenda {
+        font-size: 1.3em;
+    }
+
+    div.cont_lab_inp label {
+        font-size: 1.5em;
+    }
+
+    div.cont_lab_inp input {
+        width: 100px;
+    }
 }
 
 @media screen and (min-width: 1200px) { /* DESKTOP / TELAS GRANDES */
+
+    @keyframes borda-colorida {
+        0% {
+            border-left: 2px solid var(--cor4);
+            border-right: 2px solid var(--cor4);
+        }
+
+        50% {
+            border-left: 2px solid var(--cor1);
+            border-right: 2px solid var(--cor3);
+        }
+
+        75% {
+            border-left: 2px solid var(--cor3); 
+            border-right: 2px solid var(--cor1);
+        }
+
+        100% {
+            border-left: 2px solid var(--cor4);
+            border-right: 2px solid var(--cor4);
+        }
+    }
+
+
     header {
         background: url('../imagens/back-header-2-g.jpg');
         background-position:  center center;
@@ -25,5 +76,61 @@
 
         padding: 3px;
     }
+
+    section.apresentacao {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img#img_fred {display: none;}
+    img#img_fred2 {display: block;}
+
+    div.conteudo_p {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 35px;
+        width: 450px;
+    }
+
+    div.conteudo_p p {
+        animation: borda-colorida 7s ease-in-out infinite;
+    }
+
+    div#aparece_flex {
+        justify-content: space-evenly;
+
+        display: flex;
+        margin-top: 15px;
+    }
+
+    fieldset.mercadoria {
+        width: 500px;
+        margin: 0px;
+    }
+
+    legend.legenda {
+        font-size: 1.3em;
+    }
+
+    div.cont_lab_inp label {
+        font-size: 1.5em;
+    }
+
+    div.cont_lab_inp input {
+        width: 100px;
+    }
+
+    div.botao {
+        margin-top: 25px;
+    }
+
+    div.botao input {
+        font-size: 1.5em;
+
+        padding: 5px;
+        width: auto;
+    }
+
 
 }
