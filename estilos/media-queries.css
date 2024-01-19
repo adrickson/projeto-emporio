@@ -4,6 +4,10 @@
     header > h1 {
         font-size: 6em;
     }
+
+    nav.navegacao a {
+        font-size: 1.6em;
+    }
 }
 
 @media screen and (min-width: 1200px) { /* DESKTOP / TELAS GRANDES */
@@ -14,6 +18,12 @@
 
     header > h1 {
         font-size: 6em;
+    }
+
+    nav.navegacao a {
+        font-size: 1.9em;
+
+        padding: 3px;
     }
 
 }

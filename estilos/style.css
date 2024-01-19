@@ -49,3 +49,39 @@ header > h1 {
     height: 100%;
     display: flex;
 }
+
+nav.navegacao {
+    background-color: var(--cor1);
+    text-align: center;
+    box-shadow: 0px 2px 0px rgba(204, 123, 18, 0.589);
+
+    padding: 10px;
+}
+
+nav.navegacao a {
+    font-family: var(--font-conteudo);
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    font-size: 1.4em;
+
+    margin-left: 7px;
+    position: relative;
+}
+
+nav.navegacao a::after {
+    content: " ";
+    background-color: black;
+    width: 0%;
+    height: 3px;
+    bottom: 0%;
+    left: 0%;
+
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+nav.navegacao a:hover::after {
+    width: 100%;
+    background-color: var(--cor4);
+}
