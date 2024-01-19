@@ -85,3 +85,39 @@ nav.navegacao a:hover::after {
     width: 100%;
     background-color: var(--cor4);
 }
+
+section.apresentacao {
+
+    align-items: center;
+    flex-direction: column;  
+    text-align: center;    
+
+    width: 100%;
+    padding: 7px;
+    margin-top: 10px;
+    display: flex;
+}
+
+#img_fred img {display: block;}
+
+div.conteudo_p {
+    
+    width: 56%;
+    margin-top: 10px;
+    display: block;
+}
+
+div.conteudo_p p {
+    background-color: var(--cor2);
+    text-align: justify;
+    font-family: var(--font-conteudo);
+    font-weight: bolder;
+    font-size: 1.7em;
+    border-radius: 7px 20px;
+    border-left: 2px solid var(--cor4);
+    border-right: 2px solid var(--cor4);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.295);
+
+    padding: 10px;
+}
+
