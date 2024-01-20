@@ -212,3 +212,22 @@ div.botao input:hover {
     transform: translateY(-1px);
 }
 
+section.dados {
+    background-color: var(--cor1);
+    padding: 10px;
+}
+
+div.saida_dados {
+    background-color: var(--cor3);
+    border-radius: 20px;
+
+    padding: 10px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+div.saida_dados p {
+    font-family: var(--font-conteudo);
+    font-weight: bolder;
+    font-size: 1.3em;
+}
