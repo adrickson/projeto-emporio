@@ -215,6 +215,8 @@ div.botao input:hover {
 section.dados {
     background-color: var(--cor1);
     padding: 10px;
+
+    display: block;
 }
 
 div.saida_dados {
@@ -230,4 +232,13 @@ div.saida_dados p {
     font-family: var(--font-conteudo);
     font-weight: bolder;
     font-size: 1.3em;
+}
+
+div.saida_dados output {
+    background-color: var(--cor2);
+    border-radius: 10px;
+    font-family: var(--font-titulos);
+    font-weight: 500;
+
+    padding: 5px;
 }

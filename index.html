@@ -42,22 +42,22 @@
 
                 <div class="cont_lab_inp">
                     <label for="itaipava">Caixa Itaipava: </label>
-                    <input type="number" name="itaipava" id="itaipava">
+                    <input type="number" name="itaipava" id="itaipava" value="0">
                 </div>
 
                 <div class="cont_lab_inp">
                     <label for="brahma">Caixa Brahma: </label>
-                    <input type="number" name="brahma" id="brahma">
+                    <input type="number" name="brahma" id="brahma" value="0">
                 </div>
 
                 <div class="cont_lab_inp">
                     <label for="devassa">Caixa Devassa: </label>
-                    <input type="number" name="devassa" id="devassa">
+                    <input type="number" name="devassa" id="devassa" value="0">
                 </div>
 
                 <div class="cont_lab_inp">
                     <label for="amstel">Caixa Amstel: </label>
-                    <input type="number" name="amstel" id="amstel">
+                    <input type="number" name="amstel" id="amstel" value="0">
                 </div>
 
             </fieldset>
@@ -68,29 +68,29 @@
 
                 <div class="cont_lab_inp">
                     <label for="coca-cola">Coca-Cola: </label>
-                    <input type="number" name="coca-cola" id="coca-cola">
+                    <input type="number" name="coca-cola" id="coca-cola" value="0">
                 </div>
 
                 <div class="cont_lab_inp">
                     <label for="guarana">Guaraná: </label>
-                    <input type="number" name="guarana" id="guarana">
+                    <input type="number" name="guarana" id="guarana" value="0">
                 </div>
 
                 <div class="cont_lab_inp">
                     <label for="pepsi">Pepsi: </label>
-                    <input type="number" name="pepsi" id="pepsi">
+                    <input type="number" name="pepsi" id="pepsi" value="0">
                 </div>
 
                 <div class="cont_lab_inp">
                     <label for="doly">Doly: </label>
-                    <input type="number" name="doly" id="doly">
+                    <input type="number" name="doly" id="doly" value="0">
                 </div>
 
             </fieldset>
 
         </div>
 
-        <div class="dinheiro_recebido">
+        <div class="dinheiro_recebido"> 
 
             <fieldset class="mercadoria">
 
@@ -98,7 +98,7 @@
 
                 <div class="cont_lab_inp">
                     <label for="dinheiro_cliente">Valor recebido: </label>
-                    <input type="number" name="dinheiro_cliente" id="dinheiro_cliente">
+                    <input type="number" name="dinheiro_cliente" id="dinheiro_cliente" value="0">
                 </div>
 
             </fieldset>
@@ -106,23 +106,25 @@
         </div>
 
         <div class="botao">
-            <input type="button" value="Calcular">
+            <input type="button" value="Calcular" onclick="caixa()">
         </div>
 
     </section>
 
-    <section class="dados">
+    <section class="dados"> <!-- RECEBIMENTO DE RESULTADOS -->
 
         <div class="saida_dados">
-            <p>&#x1F4B2;Valor total: <output>0</output></p>
+            <p>&#x1F4B2;Valor total: <output id="valor-tot">R$ 0,00</output></p>
         </div>
 
         <div class="saida_dados">
 
-            <p>&#x1F4B8;Troco: <output>0</output></p>
+            <p>&#x1F4B8;Troco: <output id="troco">R$ 0,00</output></p>
 
         </div>
 
     </section>
+
+    <script src="caixa.js"></script> <!-- CHAMADA PARA O ARQUIVO DO SCRIPT -->
 </body>
 </html>

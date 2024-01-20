@@ -35,6 +35,11 @@
     div.cont_lab_inp input {
         width: 100px;
     }
+
+    section.dados {
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 
 @media screen and (min-width: 1200px) { /* DESKTOP / TELAS GRANDES */
@@ -140,5 +145,16 @@
         width: auto;
     }
 
+    section.dados {
+        display: flex;
+        justify-content: space-evenly;
+    }
 
+    div.saida_dados p {
+        font-size: 1.5em;
+    }
+
+    div.saida_dados output {
+        font-size: 0.9em;
+    }
 }
