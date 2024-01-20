@@ -170,7 +170,7 @@ div.cont_lab_inp {
 }
 
 div.cont_lab_inp label {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 div.cont_lab_inp input {
@@ -181,7 +181,7 @@ div.cont_lab_inp input {
     font-weight: bolder;
     font-size: 1em;
 
-    width: 35px;
+    width: 40px;
     padding: 3px;
     transform: translateY(-2px);
 }
