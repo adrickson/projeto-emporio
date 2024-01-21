@@ -73,10 +73,12 @@ let soda_peq = Number(txt_soda_p.value)
 
 let dinheiro_recebido = Number(txt_dinheiro_recebido.value)
 
-function caixa() {
+/*function caixa() {
 
     if(txt_dinheiro_recebido.length == 0 || dinheiro_recebido == 0) {
         troco.innerHTML = `Sem troco`
+    } else {
+        let tot1 = (itaipava * )
     }
 
-}
+}*/

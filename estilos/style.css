@@ -246,3 +246,64 @@ div.saida_dados output {
 
     padding: 5px;
 }
+
+footer.rodape {
+
+    background-color: var(--cor2);
+    text-align: center;
+
+    padding: 10px;
+    margin-top: 50px;
+}
+
+footer.rodape > h2 {
+    font-family: var(--font-sub-tit);
+    font-size: 1.7em;
+}
+
+div.atalhos {
+
+    font-family: var(--font-conteudo);
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+div.atalhos > a {
+    color: black;
+    background-color: var(--cor1);
+    text-decoration: none;
+    font-size: 1.3em;
+    border-radius: 10px;
+    border: 2px solid var(--cor4);
+    transition: 0.3s ease-in-out;
+
+    padding: 7px;
+    display: block;
+}
+
+div.atalhos > a:hover {
+
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px var(--cor4);
+
+}
+
+footer.rodape > p {
+
+    font-family: var(--font-conteudo);
+    font-weight: bolder;
+    font-size: 0.9em;
+}
+
+footer.rodape > p > a {
+    color: black;
+    text-decoration: none;
+}
+
+footer.rodape > p > a:hover {
+    text-decoration: underline;
+}
