@@ -102,11 +102,11 @@
         animation: borda-colorida 7s ease-in-out infinite;
     }
 
-    div#aparece_flex {
+    div.aparece_flex {
         justify-content: space-evenly;
 
         display: flex;
-        margin-top: 15px;
+        margin-top: 35px;
     }
 
     fieldset.mercadoria {

@@ -144,6 +144,10 @@ fieldset.mercadoria {
 
 }
 
+fieldset.mercadoria_grande {
+    margin-top: 50px;
+}
+
 legend.legenda {
     font-family: var(--font-titulos);
     color: white;
